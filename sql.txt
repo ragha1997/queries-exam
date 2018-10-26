@@ -1,0 +1,3 @@
+alter table emp123 add bhavana varchar2(21);
+
+select count(emp_id) from emp123 where emp_sal > (select avg(emp_sal) from emp123);
